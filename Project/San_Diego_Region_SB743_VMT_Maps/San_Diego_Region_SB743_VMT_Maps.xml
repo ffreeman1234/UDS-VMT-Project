@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Map1</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>The California Senate Bill 743 (SB 743) (Steinberg, 2013) VMT maps provide an estimate of personal vehicle travel by residents and employees within the San Diego region. The California Office of Planning and Research released a Technical Advisory on Evaluating Transportation Impacts in CEQA (https://opr.ca.gov/ceqa/sb-743/) and the maps provided by SANDAG are an interpretation of the guidelines provided as a resource to the jurisdictions in our region to use as they see fit.  The estimated data in these maps are an analysis of travel using SANDAG’s ABM. The currently approved ABM version (14.2.2) used for the 2021 Regional Plan is ABM2+ with the Series 14 Growth Forecast version 38. The historic version of the ABM (14.1.1) was used for the 2019 Regional Transportation Plan with the Series 14 Growth Forecast version 17.  These maps and data are subject to change as new estimates are produced using updated inputs and methodologies. Local jurisdictions are under no obligation to use the data in their development approval processes or transportation analyses under SB 743. Users of the data should exercise their professional judgment in reviewing, evaluating, and analyzing VMT reduction estimate results from the tool. Each agency should consult with California Environmental Quality Act (CEQA) experts and legal counsel regarding their own CEQA practices and updates to local policies. The estimated data are provided at four geographic scales: City, City/County CPA, Census Tract, and Traffic Analysis. For each geography SANDAG provides the VMT data per capita and per employee. VMT per capita represents the average amount of personal, non-commercial, vehicle travel made on an average weekday by each resident who lives within that geographic boundary. VMT per employee represents the average amount of personal, non-commercial, vehicle travel made on an average weekday by each resident employee whose employment/work location is within that geographic boundary. When downloading and viewing this layer in GIS or tabular formats, all records will be displayed by default. In order to limit the records to a specific VMT category, a query or filter on [version], [geo], [year], and [vmt_type] fields will need to be applied. For example, when using the query in GIS you can set the definition query to: [version] = &amp;quot;ABM2+ / 2021 RP&amp;quot; AND [geo] = &amp;quot;Census Tract&amp;quot; AND [year] = 2016 AND [vmt_type] = &amp;quot;Residents&amp;quot; -  this query will display only records for census tracts with 2016 VMT estimates by residents. An example in Excel would consist of setting the filter (checkbox) [version] = &amp;quot;ABM2+ / 2021 RP&amp;quot;, [geo] = &amp;quot;Census Tract&amp;quot;, [year] = 2016, and [vmt_type] = &amp;quot;Residents&amp;quot; to display records for census tracts with 2016 VMT estimates by residents.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>San Diego Region SB743 VMT Maps
+ABM2 / 2019 RTP - City/CPA and Census Tract (2016)
+ABM2+ / 2021 RP - City/CPA, Census Tract, and Traffic Analysis Zone (2016, 2025, 2035, 2050)</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>SANDAG</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>TFIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>VMT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>San Diego</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SB743</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>TFIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>VMT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>San Diego</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SB743</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>TFIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>VMT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>San Diego</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SB743</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>TFIC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>VMT</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>San Diego</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>SB743</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>DisclaimerThe maps provided by SANDAG are an interpretation of the Senate Bill 743 Technical Advisory guidelines published by the California Office of Planning and Research and are provided as a resource to the jurisdictions in the San Diego region to use as they see fit. Users of the data should exercise their professional judgment in reviewing, evaluating and analyzing VMT reduction estimate results from the tool. Each agency should consult with CEQA experts and legal counsel regarding their own CEQA practices and updates to local policies. Refer to full disclaimer and additional information relating to the use of the SB 743 VMT Map Web Application.While the data have been tested for accuracy and are properly functioning, SANDAG disclaims any responsibility for the accuracy or correctness of the data.THE FOREGOING WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES OR MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE AND/OR ANY OTHER TYPE WHETHER EXPRESSED OR IMPLIED.In no event shall SANDAG become liable to users of these data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. In using these data, users further agree to indemnify, defend, and hold harmless SANDAG for any and all liability of any nature arising out of or resulting from the lack of accuracy or correctness of the data, or the use of the data.To assist SANDAG in the maintenance of the data, users should provide SANDAG, at the email address shown below, information concerning errors or discrepancies found in using the data.tfic@sandag.orgClick here to view the SB743 VMT Data DisclaimerClick here to view the SB743 VMT Metadata</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>
